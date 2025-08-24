@@ -92,7 +92,7 @@ namespace Game_Caro
 
             if (CheckWin(point))
             {
-                MessageBox.Show(Player[CurrentPlayer == 0 ? 1 : 0].Name + " đã giành chiến thắng!");
+                MessageBox.Show("Chúc mừng " + Player[CurrentPlayer == 0 ? 1 : 0].Name + " đã giành chiến thắng!");
                 ChessBoard.Enabled = false;
             }
             else

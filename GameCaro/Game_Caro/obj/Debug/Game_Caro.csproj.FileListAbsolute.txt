@@ -8,3 +8,13 @@ E:\CNPM\GameCaro\Game_Caro\obj\Debug\Game_Caro.csproj.CoreCompileInputs.cache
 E:\CNPM\GameCaro\Game_Caro\obj\Debug\Game_Caro.exe
 E:\CNPM\GameCaro\Game_Caro\obj\Debug\Game_Caro.pdb
 E:\CNPM\GameCaro\Game_Caro\obj\Debug\Game_Caro.Form1.resources
+E:\CNPM\CSharp\GameCaro\Game_Caro\bin\Debug\Game_Caro.exe.config
+E:\CNPM\CSharp\GameCaro\Game_Caro\bin\Debug\Game_Caro.exe
+E:\CNPM\CSharp\GameCaro\Game_Caro\bin\Debug\Game_Caro.pdb
+E:\CNPM\CSharp\GameCaro\Game_Caro\obj\Debug\Game_Caro.csproj.AssemblyReference.cache
+E:\CNPM\CSharp\GameCaro\Game_Caro\obj\Debug\Game_Caro.Form1.resources
+E:\CNPM\CSharp\GameCaro\Game_Caro\obj\Debug\Game_Caro.Properties.Resources.resources
+E:\CNPM\CSharp\GameCaro\Game_Caro\obj\Debug\Game_Caro.csproj.GenerateResource.cache
+E:\CNPM\CSharp\GameCaro\Game_Caro\obj\Debug\Game_Caro.csproj.CoreCompileInputs.cache
+E:\CNPM\CSharp\GameCaro\Game_Caro\obj\Debug\Game_Caro.exe
+E:\CNPM\CSharp\GameCaro\Game_Caro\obj\Debug\Game_Caro.pdb
