@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -170,7 +171,9 @@ namespace Game_Caro
             int x = pos.X;
             int y = pos.Y;
 
-            // vượt ngoài bàn
+            int z = pos.X;
+
+            // vượt ngoài bàn ádasdasdsadsa
             if (x < 0 || y < 0 || x >= Cons.CHESSBOARD_HEIGHT || y >= Cons.CHESSBOARD_WIDTH)
                 return true;
 
