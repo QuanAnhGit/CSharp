@@ -50,10 +50,6 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ChessBoardManager.cs",
@@ -63,8 +59,7 @@
               "RelativeToolTip": "ChessBoardManager.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T11:24:25.422Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-24T11:24:25.422Z"
             },
             {
               "$type": "Document",
@@ -76,8 +71,7 @@
               "RelativeToolTip": "Player.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T13:47:29.262Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-24T13:47:29.262Z"
             },
             {
               "$type": "Document",
@@ -89,8 +83,7 @@
               "RelativeToolTip": "Form1.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAAABsAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T10:46:03.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-24T10:46:03.261Z"
             },
             {
               "$type": "Document",
@@ -102,8 +95,7 @@
               "RelativeToolTip": "Cons.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-08-24T11:01:31.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-08-24T11:01:31.184Z"
             }
           ]
         }
