@@ -33,6 +33,11 @@ namespace Game_Caro
         PictureBox playermark;
         #endregion
 
+        #region Events
+        public event EventHandler PlayerSwitched;
+        public event EventHandler EndedGame;
+        #endregion
+
 
         #region Initialize
         public ChessBoardManager(Panel chessBoard, TextBox playerName, PictureBox playermark) { 
@@ -82,11 +87,8 @@ namespace Game_Caro
         private void btn_Click(object sender, EventArgs e)
         {
             Button btn = sender as Button;
-            if (btn.BackgroundImage != null)
-            {
-                return;
-            }
-            
+            if (btn.BackgroundImage != null) return;
+
             Mark(btn);
 
             Point point = GetChessPoint(btn);
@@ -171,9 +173,8 @@ namespace Game_Caro
             int x = pos.X;
             int y = pos.Y;
 
-            int z = pos.X;
 
-            // vượt ngoài bàn ádasdasdsadsa
+            // vượt ngoài bàn 
             if (x < 0 || y < 0 || x >= Cons.CHESSBOARD_HEIGHT || y >= Cons.CHESSBOARD_WIDTH)
                 return true;
 
@@ -204,6 +205,7 @@ namespace Game_Caro
         {
             PlayerName.Text = Player[CurrentPlayer].Name;
             PlayerMark.Image = Player[CurrentPlayer].Mark;
+            PlayerSwitched?.Invoke(this, EventArgs.Empty);
         }
 
         #endregion

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pnlChessBoard = new System.Windows.Forms.Panel();
             this.pictureCaro = new System.Windows.Forms.Panel();
@@ -38,6 +39,7 @@
             this.pictureMark = new System.Windows.Forms.PictureBox();
             this.pcbCoolDown = new System.Windows.Forms.ProgressBar();
             this.txbPlayerName = new System.Windows.Forms.TextBox();
+            this.timerCoolDown = new System.Windows.Forms.Timer(this.components);
             this.In4OfMatch.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureMark)).BeginInit();
             this.SuspendLayout();
@@ -114,6 +116,7 @@
             // 
             // pcbCoolDown
             // 
+            this.pcbCoolDown.BackColor = System.Drawing.SystemColors.HotTrack;
             this.pcbCoolDown.Location = new System.Drawing.Point(3, 31);
             this.pcbCoolDown.Name = "pcbCoolDown";
             this.pcbCoolDown.Size = new System.Drawing.Size(174, 23);
@@ -126,6 +129,10 @@
             this.txbPlayerName.ReadOnly = true;
             this.txbPlayerName.Size = new System.Drawing.Size(174, 22);
             this.txbPlayerName.TabIndex = 0;
+            // 
+            // timerCoolDown
+            // 
+            this.timerCoolDown.Tick += new System.EventHandler(this.timerCoolDown_Tick);
             // 
             // Form1
             // 
@@ -157,6 +164,7 @@
         private System.Windows.Forms.TextBox txbIP;
         private System.Windows.Forms.PictureBox pictureMark;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Timer timerCoolDown;
     }
 }
 
